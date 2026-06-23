@@ -1,35 +1,79 @@
 {
   "version": "2.0",
-  "dataset_id": "on004306",
-  "source": "openneuro",
-  "source_id": "ds004306",
+  "pipeline_stage": "validated",
   "title": "EEG Semantic Imagination and Perception Dataset",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Holly Wilson": {},
     "Mohammad Golbabaee": {},
     "Michael Proulx": {},
     "Eamonn O'Neill": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds004306.v1.0.2",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on004306",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004306",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
-  ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.7.0",
-  "recording_modality": [
-    "eeg"
-  ],
-  "datatypes": [
-    "eeg"
   ],
   "funding_references": [
     {
       "funder_name": "EPSRC"
     }
-  ]
+  ],
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".JPEG",
+    ".db",
+    ".fdt",
+    ".fif",
+    ".jpg",
+    ".json",
+    ".md",
+    ".ogg",
+    ".png",
+    ".set",
+    ".tsv"
+  ],
+  "description": "This dataset comprises electroencephalography (EEG) recordings from 13 participants performing semantic imagination and perception tasks across visual and auditory modalities. Participants engaged in tasks involving three object categories (guitar, flower, penguin) presented as visual pictorial, visual orthographic, or auditory stimuli. The dataset includes raw EEG data acquired with a 124-channel ANT-Neuro system, along with preprocessed and epoched versions suitable for multimodal cognitive neuroscience research.",
+  "methods_description": "EEG signals were recorded using a 124-channel ANT-Neuro device. Participants completed tasks involving imagination and perception of stimuli from three modalities: visual pictorial, visual orthographic (writing), and auditory. Stimuli belonged to three semantically dissimilar object categories (guitar, flower, penguin), each with two syllables. Thirteen participants completed the study, with ten performing one session and three performing two sessions.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "semantic processing"
+    },
+    {
+      "term": "motor imagery"
+    },
+    {
+      "term": "visual perception"
+    },
+    {
+      "term": "auditory perception"
+    },
+    {
+      "term": "imagination"
+    }
+  ],
+  "source_hash": "22a1ba6cfc8d580ad186ebf82acfae95a12d58cbd376911f25cba0f3e3c2a526"
 }
