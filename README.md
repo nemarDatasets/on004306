@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on004306-blue)](https://doi.org/10.82901/nemar.on004306)
+
 
 This dataset consists of electroencephalography (EEG) signals acquired with a 124 EEG ANT-Neuro device. 
 
