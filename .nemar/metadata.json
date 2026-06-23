@@ -1,0 +1,35 @@
+{
+  "version": "2.0",
+  "dataset_id": "on004306",
+  "source": "openneuro",
+  "source_id": "ds004306",
+  "title": "EEG Semantic Imagination and Perception Dataset",
+  "authors": {
+    "Holly Wilson": {},
+    "Mohammad Golbabaee": {},
+    "Michael Proulx": {},
+    "Eamonn O'Neill": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds004306.v1.0.2",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded",
+  "bids_version": "1.7.0",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "funding_references": [
+    {
+      "funder_name": "EPSRC"
+    }
+  ]
+}
