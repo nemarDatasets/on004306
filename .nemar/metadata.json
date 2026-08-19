@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "EEG Semantic Imagination and Perception Dataset",
-  "description": "This dataset comprises electroencephalography (EEG) recordings from 13 participants performing semantic imagination and perception tasks across visual and auditory modalities. Participants were presented with stimuli from three semantically dissimilar categories (guitar, flower, penguin) in pictorial, orthographic, and auditory formats. The dataset includes raw, preprocessed, and epoched EEG data acquired using a 124-channel ANT-Neuro system, providing a resource for investigating neural correlates of semantic processing and cross-modal perception.",
-  "methods_description": "EEG signals were acquired using a 124-channel ANT-Neuro device. Participants performed tasks involving imagination and perception of stimuli from three modalities: visual pictorial, visual orthographic (writing), and auditory. Stimuli belonged to three semantic categories: guitar, flower, and penguin. The dataset includes raw, preprocessed, and epoched versions of the EEG data.",
+  "description": "This dataset comprises high-density EEG recordings from 13 participants performing a semantic imagination and perception task involving three stimulus modalities (visual pictorial, visual orthographic, and auditory) across three semantically dissimilar categories (guitar, flower, penguin). The dataset provides raw, preprocessed, and epoched EEG data, supporting research into neural correlates of mental imagery and perception across sensory modalities.",
+  "methods_description": "EEG signals were acquired using a 124-channel ANT-Neuro EEG device. Participants imagined and perceived stimuli from three modalities (visual pictorial, visual orthographic, and auditory) belonging to three semantic categories (guitar, flower, penguin), with most participants completing one session and three completing two sessions.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -17,19 +17,25 @@
       "term": "EEG"
     },
     {
+      "term": "mental imagery"
+    },
+    {
+      "term": "Perception",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D010465"
+    },
+    {
       "term": "semantic processing"
     },
     {
-      "term": "motor imagery"
+      "term": "Auditory Perception",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D001307"
     },
     {
-      "term": "visual perception"
-    },
-    {
-      "term": "auditory perception"
-    },
-    {
-      "term": "electroencephalography"
+      "term": "Visual Perception",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D014796"
     }
   ],
   "related_identifiers": [
@@ -39,14 +45,14 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004306",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
       "identifier": "10.18112/openneuro.ds004306.v1.0.2",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on004306",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "funding_references": [
