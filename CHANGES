@@ -1,3 +1,7 @@
+Unreleased 2026-10-19 (local repair branch; not published)
+  - Move 15 existing annexed FDT files next to their EEGLAB SET files under BIDS basenames. Signal bytes and annex keys are unchanged.
+  - Record original paths, expected sizes, annex keys and Expanse staging paths in code/fix-20261019-manifest.json. All 15 sizes, full-file SHA256 annex keys, and EEGDash-local/MNE-BIDS first/last-second reads were verified on Expanse compute nodes. No raw content is stored in git.
+
 1.0.2 2023-09-27
   - added .fdt files
 1.0.1 2023-02-14
